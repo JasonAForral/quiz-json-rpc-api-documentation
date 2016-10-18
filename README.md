@@ -63,7 +63,6 @@
 {
   "jsonrpc": "2.0",
   "result": {
-    "correct": false,
     "answerId": 2
   },
   "id": 1
