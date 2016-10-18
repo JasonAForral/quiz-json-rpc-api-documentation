@@ -1,6 +1,6 @@
-# quiz-json-rpc-api-documentation
+### quiz-json-rpc-api-documentation
 
-### Request new question:
+#### Request new question:
 
 ```json
 {
@@ -10,7 +10,7 @@
 }
 ```
 
-### Response from server:
+#### Response from server:
 
 ```json
 {
@@ -43,7 +43,7 @@
 }
 ```
 
-### Request answer question:
+#### Request answer question:
 
 ```json
 {
@@ -57,7 +57,7 @@
 }
 ```
 
-### Response answer question:
+#### Response answer question:
 
 ```json
 {
