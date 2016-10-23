@@ -14,7 +14,7 @@
 
 ```json
 {
-  "json": "2.0",
+  "jsonrpc": "2.0",
   "result": {
     "question": {
       "id": 1,
