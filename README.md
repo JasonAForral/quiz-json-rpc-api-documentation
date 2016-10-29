@@ -4,9 +4,9 @@
 
 ```json
 {
+  "id": 1,
   "jsonrpc": "2.0",
-  "method": "getQuestion",
-  "id": 1
+  "method": "getQuestion"
 }
 ```
 
@@ -14,12 +14,9 @@
 
 ```json
 {
+  "id": 1,
   "jsonrpc": "2.0",
   "result": {
-    "question": {
-      "id": 1,
-      "text": "What is a hat?"
-    },
     "answers": [
       {
         "id": 1,
@@ -37,9 +34,12 @@
         "id": 4,
         "text": "A type of tree."
       }
-    ]
-  },
-  "id": 1
+    ],
+    "question": {
+      "id": 1,
+      "text": "What is a hat?"
+    }
+  }
 }
 ```
 
@@ -47,13 +47,13 @@
 
 ```json
 {
+  "id": 1,
   "jsonrpc": "2.0",
   "method": "answerQuestion",
   "params": {
-    "questionId": 1,
-    "answerId": 1
-  },
-  "id": 1
+    "answerId": 1,
+    "questionId": 1
+  }
 }
 ```
 
@@ -61,11 +61,10 @@
 
 ```json
 {
+  "id": 1,
   "jsonrpc": "2.0",
   "result": {
-    "correct": false,
     "answerId": 2
-  },
-  "id": 1
+  }
 }
 ```
