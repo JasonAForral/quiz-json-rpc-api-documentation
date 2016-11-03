@@ -51,7 +51,7 @@
   "jsonrpc": "2.0",
   "method": "answerQuestion",
   "params": {
-    "answerId": 1,
+    "guessId": 1,
     "questionId": 1
   }
 }
@@ -64,7 +64,7 @@
   "id": 1,
   "jsonrpc": "2.0",
   "result": {
-    "answerId": 2
+    "correctId": 2
   }
 }
 ```
