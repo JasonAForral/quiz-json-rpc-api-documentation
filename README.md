@@ -1,12 +1,46 @@
 ### quiz-json-rpc-api-documentation
 
+#### Request quizzes available:
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "getQuizzes"
+}
+```
+
+#### Response from server:
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "quizzes": [
+      {
+        "id": 1,
+        "text": "State Capitals"
+      },
+      {
+        "id": 2,
+        "text": "Atomic Numbers"
+      }
+    ]
+  }
+}
+```
+
 #### Request new question:
 
 ```json
 {
   "id": 1,
   "jsonrpc": "2.0",
-  "method": "getQuestion"
+  "method": "getQuestion",
+  "params": {
+    "quizId": 1
+  }
 }
 ```
 
