@@ -1,6 +1,6 @@
 ### quiz-json-rpc-api-documentation
 
-####  Request login
+#### Request login
 
 ```json
 {
