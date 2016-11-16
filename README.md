@@ -1,6 +1,176 @@
 ### quiz-json-rpc-api-documentation
 
-#### Request quizzes available:
+#### Request login
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "login",
+  "params": {
+    "password": "password",
+    "username": "username"
+  }
+}
+```
+
+#### Response login
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request logout
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "logout"
+}
+```
+
+#### Response logout
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request user registration
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "userRegistration",
+  "params": {
+    "email": "email@email.com"
+  }
+}
+```
+
+#### Response user registration
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request finish profile
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "userRegistration",
+  "params": {
+    "password": "password",
+    "passwordConfirm": "password",
+    "username": "username"
+  }
+}
+```
+
+#### Response finish profile
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request confirmation
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "userRegistration",
+  "params": {
+    "email": "password",
+    "verificationCode": "13531"
+  }
+}
+```
+
+#### Response confirmation
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request change password
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "changePassword",
+  "params": {
+    "password": "password",
+    "passwordConfirm": "password"
+  }
+}
+```
+
+#### Response change password
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request reset password
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "resetPassword",
+  "params": {
+    "email": "email@email.com"
+  }
+}
+```
+
+#### Response reset password
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+  }
+}
+```
+
+#### Request quizzes available
 
 ```json
 {
@@ -10,7 +180,7 @@
 }
 ```
 
-#### Response from server:
+#### Response from server
 
 ```json
 {
@@ -31,7 +201,7 @@
 }
 ```
 
-#### Request new question:
+#### Request new question
 
 ```json
 {
@@ -44,7 +214,7 @@
 }
 ```
 
-#### Response from server:
+#### Response from server
 
 ```json
 {
@@ -77,7 +247,7 @@
 }
 ```
 
-#### Request answer question:
+#### Request answer question
 
 ```json
 {
@@ -91,7 +261,7 @@
 }
 ```
 
-#### Response answer question:
+#### Response answer question
 
 ```json
 {
