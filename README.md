@@ -1,6 +1,6 @@
 ### quiz-json-rpc-api-documentation
 
-#### Request login
+####  Request login
 
 ```json
 {
@@ -76,7 +76,7 @@
 {
   "id": 1,
   "jsonrpc": "2.0",
-  "method": "userRegistration",
+  "method": "finishProfile",
   "params": {
     "password": "password",
     "passwordConfirm": "password",
@@ -102,9 +102,9 @@
 {
   "id": 1,
   "jsonrpc": "2.0",
-  "method": "userRegistration",
+  "method": "confirmation",
   "params": {
-    "email": "password",
+    "email": "email@email.com",
     "verificationCode": "13531"
   }
 }
