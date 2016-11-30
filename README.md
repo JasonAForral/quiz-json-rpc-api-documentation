@@ -21,6 +21,7 @@
   "id": 1,
   "jsonrpc": "2.0",
   "result": {
+    "username": "Username"
   }
 }
 ```
@@ -54,30 +55,7 @@
   "jsonrpc": "2.0",
   "method": "userRegistration",
   "params": {
-    "email": "email@email.com"
-  }
-}
-```
-
-#### Response user registration
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "result": {
-  }
-}
-```
-
-#### Request finish profile
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "method": "finishProfile",
-  "params": {
+    "email": "email@email.com",
     "password": "password",
     "passwordConfirm": "password",
     "username": "username"
@@ -85,81 +63,7 @@
 }
 ```
 
-#### Response finish profile
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "result": {
-  }
-}
-```
-
-#### Request confirmation
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "method": "confirmation",
-  "params": {
-    "email": "email@email.com",
-    "verificationCode": "13531"
-  }
-}
-```
-
-#### Response confirmation
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "result": {
-  }
-}
-```
-
-#### Request change password
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "method": "changePassword",
-  "params": {
-    "password": "password",
-    "passwordConfirm": "password"
-  }
-}
-```
-
-#### Response change password
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "result": {
-  }
-}
-```
-
-#### Request reset password
-
-```json
-{
-  "id": 1,
-  "jsonrpc": "2.0",
-  "method": "resetPassword",
-  "params": {
-    "email": "email@email.com"
-  }
-}
-```
-
-#### Response reset password
+#### Response user registration
 
 ```json
 {
