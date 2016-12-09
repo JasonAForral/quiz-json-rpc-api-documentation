@@ -53,7 +53,7 @@
 {
   "id": 1,
   "jsonrpc": "2.0",
-  "method": "userRegistration",
+  "method": "createAccount",
   "params": {
     "email": "email@email.com",
     "password": "password",
