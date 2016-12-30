@@ -47,7 +47,7 @@
 }
 ```
 
-#### Request user registration
+#### Request create account
 
 ```json
 {
@@ -63,13 +63,34 @@
 }
 ```
 
-#### Response user registration
+#### Response create account
 
 ```json
 {
   "id": 1,
   "jsonrpc": "2.0",
   "result": {
+  }
+}
+```
+
+#### Request get active session
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "getActiveSession"
+}
+```
+#### Response get active session
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "username": "username"
   }
 }
 ```
