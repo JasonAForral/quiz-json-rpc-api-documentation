@@ -95,6 +95,28 @@
 }
 ```
 
+#### Request get session info
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "method": "getSessionInfo"
+}
+```
+#### Response get session info
+
+```json
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "email": "email",
+    "username": "username"
+  }
+}
+```
+
 #### Request quizzes available
 
 ```json
